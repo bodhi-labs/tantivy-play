@@ -1,6 +1,12 @@
 [package]
-name = "tantivy-play"
+name = "tanvy-play"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+anyhow = "1.0.95"
+clap = { version = "4.5.23", features = ["derive"] }
+colored = "2.2.0"
+regex = "1.11.1"
+thiserror = "2.0.9"
+walkdir = "2.5.0"
